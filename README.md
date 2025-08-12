@@ -20,12 +20,16 @@ Gobuster – Virtual host and subdomain enumeration
 
   Use :   gobuster vhost -u https://futurevera.thm -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -k --append-domain
 
+<img width="587" height="411" alt="Image" src="https://github.com/user-attachments/assets/dfb7db17-1077-40b7-923c-8f743285d402" />
+  
   Results : -support.futurevera.thm 
             -blog.futurevera.thm
   
   2.Add the sub-domain in /etc/hosts
   
   10.10.XX.XX futurevera.thm  blog.futurevera.thm support.futurevera.thm
+
+  <img width="583" height="79" alt="Image" src="https://github.com/user-attachments/assets/a07be3d9-39d0-4816-9ed9-7bbef0e91211" />
   
   3.Discovering the Hidden Subdomain
   
@@ -39,6 +43,8 @@ Gobuster – Virtual host and subdomain enumeration
 
   DNS Name :
   secrethelpdesk934752.support.futurevera.thm
+
+  <img width="620" height="706" alt="Image" src="https://github.com/user-attachments/assets/9b987f80-388d-4738-9d8b-434c49dbfd7d" />
 
   5.Adding the Hidden Subdomain
   10.10.X.X secrethelpdesk934752.support.futurevera.thm
